@@ -1,4 +1,4 @@
-# RAIL FENCE IS A CYPHER
+# RAIL FENCE É UMA CIFRA CRIPTOGRÁFICA 
 def rail_fence(mensagem, chave):
     padrao = list(range(chave[0])) + list(range(chave[0] - 2, 0, -1))
     matriz = [[] for _ in range(chave[0])]
